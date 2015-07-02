@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>test</title>
+</head>
+<body>
+<script type="text/javascript">
+	function calc() {
+		var pass=document.getElementsByClassName('password')[0].value;
+		if (pass==="uday"){
+			document.write("valid password");
+		}
+		else{
+			document.write("invalid password");
+		}
+	}
+</script>
+<p class="demo">enter password</p>
+<input class="password" type="text"></input>
+<button onclick="calc()">submit</button>
+</body>
+</html>
